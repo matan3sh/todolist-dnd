@@ -1,0 +1,29 @@
+.body {
+  padding: 30px;
+}
+
+.body .todo {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1rem;
+  color: #777;
+  font-family: Varela, sans-serif;
+  cursor: pointer;
+}
+
+.todo div small {
+  font-size: 0.5rem !important;
+  position: relative;
+  bottom: 10px;
+  color: #ccc;
+}
+
+.todo:not(:last-child) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.done {
+  text-decoration: line-through;
+}

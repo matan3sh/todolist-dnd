@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  background: linear-gradient(to right, #8360c3, #2ebf91);
+  border-radius: 0 0 50% 50%;
+  padding: 30px;
+  color: #fff;
+}
+
+.header i {
+  font-size: 2rem;
+}
+
+.header .date {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.header .date p {
+  font-size: 1.2rem;
+  font-weight: 900;
+}
+
+.header .date span {
+  font-size: 1rem;
+  font-weight: 200;
+}

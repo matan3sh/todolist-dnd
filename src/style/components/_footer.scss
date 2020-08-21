@@ -1,0 +1,14 @@
+.footer {
+  direction: rtl;
+}
+
+.footer span {
+  padding: 10px 20px;
+  border-radius: 50px;
+  color: #fff;
+  background: linear-gradient(to right, #8360c3, #2ebf91);
+  font-size: 2rem;
+  position: relative;
+  top: 20px;
+  cursor: pointer;
+}
